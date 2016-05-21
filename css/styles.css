@@ -127,16 +127,28 @@ body {
 		margin-bottom: 1em;
 		box-sizing: border-box;
 	}
+    #new-tweet {
+        width: 100%;
+		height: 2.5em;
+		font-size: 13px;
+		padding: 5px;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+		margin-bottom: 1em;
+		box-sizing: border-box;
+    }
 		#tweet-controls {
 			text-align: right;
+            display: none;
 		}
 			#tweet-controls div {
 				display: inline-block;
 			}
 			#char-count {
 				font-size: 14px;
-				color: #999;
+				color: #DDD;
 				text-shadow: 0 1px 1px rgba(255,255,255,.75);
+                display: none;
 			}
 
 /* TWEET */
@@ -179,7 +191,7 @@ body {
 				cursor: pointer;
 				margin-right: 2px;
 			}
-
+    }
 	.icon {
 		color: #2FC2EF;
 		background-color: #2FC2EF;
